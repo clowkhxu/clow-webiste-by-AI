@@ -1,0 +1,53 @@
+.movie-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.movie-info {
+  margin-bottom: 20px;
+}
+
+.poster {
+  max-width: 300px;
+  height: auto;
+}
+
+.movie-details {
+  margin: 20px 0;
+}
+
+.video-player {
+  margin: 20px 0;
+}
+
+.episode-list {
+  margin-top: 20px;
+}
+
+.server-group {
+  margin-bottom: 20px;
+}
+
+.episode-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+button.active {
+  background-color: #007bff;
+  color: white;
+} 
